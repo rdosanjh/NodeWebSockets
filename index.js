@@ -29,6 +29,6 @@ io.on('connection', function (socket) {
         io.emit('color back', color);
     });
 });
-http.listen(8000, function () {
-    console.log('listening on *:8000');
+http.listen(5000, function () {
+    console.log('listening on *:5000');
 });
